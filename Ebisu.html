@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>恵比須屋食堂ホームページ</title>
+    <!-- Google Fonts: Noto Serif JP (高級感のある明朝体) & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CSS参照先を正しいファイル名に修正 -->
+    <link rel="stylesheet" href="Ebisu.css">
+</head>
+<body>
+
+  <!-- ヘッダーセクション -->
+  <header class="header">
+      <div class="header-inner">
+          <div class="header-logo">
+              <img src="恵比寿やロゴ.jpg" alt="恵比須屋食堂 ロゴ">
+          </div>
+          <nav class="header-nav">
+              <ul>
+                  <li><a href="#menu-section">メニュー</a></li>
+                  <li><a href="#contact-section">お問い合わせ・ご予約</a></li>
+                  <li><a href="#access-section">アクセス</a></li>
+                  <li><a href="#instagram-section">インスタグラム</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+      <div class="hero-video-container">
+          <video src="ScreenRecording_12-26-2024 12-21-37_1.mp4" autoplay muted loop playsinline preload="auto"></video>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+              <span class="hero-sub">とんかつと自家製麺</span>
+              <h1 class="hero-title">恵比須屋食堂</h1>
+              <p class="hero-desc">五感で味わう、極上のボリュームと旨み</p>
+              <a href="#menu-section" class="btn-gold">メニューを見る</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- メニューセクション -->
+  <section id="menu-section" class="menu">
+      <div class="container">
+          <div class="section-title-wrap">
+              <h2 class="section-title">～ 恵比須屋食堂人気のメニュー ～</h2>
+              <p class="section-subtitle">Popular Menu</p>
+          </div>
+          
+          <div class="menu-grid">
+              <!-- メニュー項目 1 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_4196.jpeg" alt="恵比須カツカレー">
+                  </div>
+                  <div class="menu-info">
+                      <span class="menu-tag">人気No１</span>
+                      <h3 class="menu-item-title">恵比須カツカレー</h3>
+                      <p class="menu-item-desc">当店大人気!!!ボリューム満点240gのとんかつを二枚乗せ!<br>濃厚なカレーとご一緒にお召し上がりください...<br>とんかつが一枚の通常のカツカレーもございます。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 2 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_ebisukatudon.jpeg" alt="恵比須カツ丼">
+                  </div>
+                  <div class="menu-info">
+                      <span class="menu-tag">当店名物</span>
+                      <h3 class="menu-item-title">恵比須カツ丼</h3>
+                      <p class="menu-item-desc">ボリュームのある分厚いとんかつをソースと絡めた逸品!!!<br>衣を薄くつけることに最後まで食べやすく<br>とんかつの肉感を最大限味わえるようになっております<br>とんかつが一枚の通常のカツ丼もございます。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 3 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_currymen.jpeg" alt="とんかつカレーラーメン">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">とんかつカレーラーメン</h3>
+                      <p class="menu-item-desc">当店自家製の麺とカレーで作りましたカレーラーメン<br>それにとんかつが付く夢のセット!!!<br>ラーメン類などは全てライスもお付けできます</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 4 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_taruebi.jpeg" alt="タルタル恵比須カツ丼">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">タルタル恵比須カツ丼</h3>
+                      <p class="menu-item-desc">大人気の恵比須カツ丼に特製タルタルソースが付きます!!!<br>大人気のカツ丼のタルタルソースの夢のタッグを是非ご堪能下さい...<br>ほかのお料理にもタルタルソーストッピング可能です。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 5: とんかつオムライス -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_tonomu.jpeg" alt="とんかつオムライス">
+                  </div>
+                  <div class="menu-info">
+                      <span class="menu-tag">数量限定</span>
+                      <h3 class="menu-item-title">とんかつオムライス</h3>
+                      <p class="menu-item-desc">当店大人気の数量限定品！<br>芳醇なバターの香るオムライスととんかつで是非素敵なお時間を...<br>数量限定品のオムライスは単品でのご注文も承っております。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 6 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_tontei.jpeg" alt="とんかつ定食">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">とんかつ定食</h3>
+                      <p class="menu-item-desc">当店大人気のとんかつを定食スタイルで...<br>お味噌汁とお野菜で一汁一菜バランスよく！<br>タルタルソースをトッピングする食べ方も人気です♪</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 7 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_ramen.jpeg" alt="ラーメン">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">ラーメン</h3>
+                      <p class="menu-item-desc">当店自家製の麺で作り上げた一品<br>チャーシューは分厚い角煮!!!<br>角煮は単品でもご注文いただけます。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 8: 味噌ラーメン -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_miso.jpeg" alt="味噌ラーメン">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">味噌ラーメン</h3>
+                      <p class="menu-item-desc">自家製の麺とコク深い味噌スープが絡み合う、当店自慢の味噌ラーメン。ボリュームのある具材と共にお召し上がりください。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 9: こだわりのもつ煮 -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_motuni.jpeg" alt="こだわりのもつ煮">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">こだわりのもつ煮</h3>
+                      <p class="menu-item-desc">じっくりと時間をかけて柔らかく煮込んだ当店自慢のもつ煮。おつまみにも、ご飯のおかずにもぴったりです。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 10: スタミナラーメン -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_sutamina.jpeg" alt="スタミナラーメン">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">スタミナラーメン</h3>
+                      <p class="menu-item-desc">厳選した豚肉を使用し、ニンニクの効いた特製スープと自家製麺でスタミナ満点に仕上げました。食欲をそそる一杯です。</p>
+                  </div>
+              </div>
+
+              <!-- メニュー項目 11: とんかつマーボーちゃんぽん -->
+              <div class="menu-card">
+                  <div class="menu-img-wrap">
+                      <img src="IMG_tonmabo.jpeg" alt="とんかつマーボーちゃんぽん">
+                  </div>
+                  <div class="menu-info">
+                      <h3 class="menu-item-title">とんかつマーボーちゃんぽん</h3>
+                      <p class="menu-item-desc">豚肉の旨味がたっぷりと溶け込んだ、ピリ辛でコクのある特製マーボーに、自慢のとんかつとちゃんぽん麺が絡み合う贅沢な一品です。</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="menu-footer">
+              <p>ほかにも様々なお料理ございます<br><br>ご来店お待ちしております</p>
+          </div>
+      </div>
+  </section>
+
+  <!-- ご予約・お問い合わせセクション -->
+  <section id="contact-section" class="contact">
+      <div class="container">
+          <div class="section-title-wrap">
+              <h2 class="section-title">～ お問い合わせ・ご予約 ～</h2>
+              <p class="section-subtitle">Reservation & Inquiry</p>
+          </div>
+          <div class="contact-box">
+              <p class="tel-number">0493-24-4060</p>
+              <p class="tel-desc">～お持ち帰り、テイクアウトも受け付けております～</p>
+              <a href="tel:0493-24-4060" class="btn-tel">電話をかける</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- アクセスセクション -->
+  <section id="access-section" class="access">
+      <div class="container">
+          <div class="section-title-wrap">
+              <h2 class="section-title">～ アクセス ～</h2>
+              <p class="section-subtitle">Access</p>
+          </div>
+          <div class="access-grid">
+              <div class="access-info">
+                  <p class="address">埼玉県東松山市石橋1570-2</p>
+                  <table class="business-table">
+                      <tr>
+                          <th>営業時間</th>
+                          <td>11:00〜22:00（L .O 21;30）</td>
+                      </tr>
+                      <tr>
+                          <th>定休日</th>
+                          <td>不定休</td>
+                      </tr>
+                  </table>
+              </div>
+              <div class="access-map-img">
+                  <img src="gaikann.jpg" alt="恵比須屋食堂 外観">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- インスタグラムセクション -->
+  <section id="instagram-section" class="instagram-section">
+      <div class="container">
+          <div class="section-title-wrap">
+              <h2 class="section-title">～ インスタグラム ～</h2>
+              <p class="section-subtitle">Instagram</p>
+          </div>
+          <div class="instagram-post">
+              <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Cjfd1Z7LIow/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#000; border:0; border-radius:12px; box-shadow:0 0 20px 0 rgba(201,168,76,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                  <!-- Instagramの埋め込みスクリプトによりレンダリングされる領域 -->
+              </blockquote>
+              <script async src="//www.instagram.com/embed.js"></script>
+          </div>
+          <div style="text-align: center; margin-top: 40px;">
+              <a href="https://www.instagram.com/yebisuya_syokudo/" target="_blank" class="btn-gold" style="display: inline-block;">公式Instagramはこちら</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- 店主ご挨拶セクション -->
+  <section class="aboutus">
+      <div class="container">
+          <div class="about-card">
+              <div class="about-content">
+                  <h2 class="section-title">～ ご挨拶 ～</h2>
+                  <p class="greeting-body" style="text-align: center; max-width: 100%;">
+                      恵比須屋食堂へようこそ。<br>
+                      店主の小林浩章です。<br>
+                      味と品質にこだわり原料にもこだわりを持って使用しております。<br>
+                      デカ盛り、大盛りもございますが食べ切れる範囲のものです。<br>
+                      是非、お越しくださって楽しんでいってください。<br>
+                      ​お待ちしております。
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+      <p class="copyright">&copy; 2026 恵比須屋食堂. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
